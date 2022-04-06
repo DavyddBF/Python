@@ -1,0 +1,25 @@
+import pyautogui
+#não mecha no computador enquanto roda o código
+pyautogui.alert('Não use mais seu computador! Agora o Python está no total controle!')
+pyautogui.PAUSE = 0.5
+pyautogui.press('winleft')
+pyautogui.write('Library')
+pyautogui.press('enter')
+pyautogui.hotkey('win', 'right')
+pyautogui.sleep(3)
+pyautogui.press('winleft')
+pyautogui.write('chrome')
+pyautogui.press('enter')
+pyautogui.sleep(3)
+pyautogui.hotkey('win', 'left')
+pyautogui.write('jw.org')
+pyautogui.press('enter')
+pyautogui.hotkey('ctrl', 't')
+pyautogui.write('https://wol.jw.org/pt/wol/h/r5/lp-t')
+pyautogui.PAUSE = 2
+pyautogui.press('enter')
+pyautogui.sleep(2)
+pyautogui.press('winleft')
+pyautogui.write('whatsapp')
+pyautogui.press('enter')
+pyautogui.alert('O código foi efetuato com sucesso!! Bom uso!!')
